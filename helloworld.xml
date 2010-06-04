@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Hello World - Roka Examples</title>
+    <script src="http://github.com/downloads/azer/roka/roka1.0rc17.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript" charset="utf-8">
+      roka.dom.load('helloworld/index.xml',function(){
+        var hw = window.hw = new HelloWorld();
+        hw.events.add_listener('ready',function()
+        {
+          hw.layout.insert( document.querySelector('body') );
+        });
+      });
+    </script>
+    <style type="text/css" media="screen">
+      html, body { width:100%; height:100%; margin:0; padding:0; }
+    </style>
+  </head>
+  <body>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+<?xml-stylesheet type="text/xsl" href="monitor.xsl"?>
+<monitor>
+  <record>
+    <class>Log Info</class>
+    <message>Welcome to Roka Console!</message>
+  </record>
+  <record>
+    <class>Log Info</class>
+    <message>Check out this example's source code at: http://github.com/azer/roke-examples/</message>
+  </record>
+</monitor>

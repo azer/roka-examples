@@ -1,0 +1,6 @@
+<Dependencies>
+  <Module path='Skeleton.js' />
+  <Module path='SkeletonView.js' />
+  <Stylesheet path='style.css' />
+  <Widget path='../monitor/index.xml' />
+</Dependencies>

@@ -1,0 +1,17 @@
+<svg width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <filter id="Blur" filterUnits="userSpaceOnUse"
+    x="0" y="0" >
+    <feGaussianBlur in="SourceAlpha" stdDeviation="4" result="blur"/>
+    </filter>
+  </defs>
+  <rect x="0" y="0" width="100%" height="100%" style="fill:rgb(255,200,0)" />
+  <g filter="url(#Blur)">
+    <text x="200" y="250" font-size="140" transform='rotate(-3 0,5)' font-family="Arial" font-weight="bolder" style="fill:#333333;">here</text>
+    <text x="600" y="230" font-size="120" font-family="Arial" font-weight="bolder">some</text>
+    <text x="200" y="350" font-size="180" font-family="Arial" font-weight="bolder">poetries</text>
+    <a xlink:href="http://github.com/azer/roka-examples">
+      <text x="450" y="400" font-size="20" font-family="Arial" font-weight="bolder" style="letter-spacing:-1px">SOURCE CODE</text>
+    </a>
+  </g>
+</svg> 

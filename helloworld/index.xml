@@ -1,0 +1,4 @@
+<Dependencies>
+  <Module path='HelloWorld.js' />
+  <Module path='HelloWorldView.js' />
+</Dependencies>

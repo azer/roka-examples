@@ -1,0 +1,4 @@
+<Dependencies>
+  <Module path='RokaConsole.js' />
+  <Widget path='widgets/skeleton/index.xml' />
+</Dependencies>

@@ -1,0 +1,4 @@
+<Dependencies>
+  <Module path='Monitor.js' />
+  <Module path='MonitorView.js' />
+</Dependencies>
