@@ -6,6 +6,6 @@
   </record>
   <record>
     <class>Log Info</class>
-    <message>Check out this example's source code at: http://github.com/azer/roke-examples/</message>
+    <message>Check out this example's source code at: http://github.com/azer/roka-examples/</message>
   </record>
 </monitor>
