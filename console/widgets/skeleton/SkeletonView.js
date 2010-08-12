@@ -12,6 +12,14 @@
     // call super constructor
     superproto(SkeletonView,this).constructor.call(this);
 
+    if( !this.path ) // for the javascript engines not providing stack information
+    {
+      try { throw new Error(); } catch(exc)
+      {
+        this.path = roka.core.utils.get_dir( exc.sourceURL );
+      }
+    }
+
     this.widget = widget;
     
     // define template url
@@ -48,5 +56,5 @@
     }
   };
 
-})( window.rokaconsole );
+})( rokaconsole );
 

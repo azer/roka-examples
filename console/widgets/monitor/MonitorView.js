@@ -9,6 +9,14 @@
   {
     // call super constructor
     roka.core.oop.superproto(MonitorView,this).constructor.apply(this,arguments);
+    
+    if( !this.path ) // for the javascript engines not providing stack information
+    {
+      try { throw new Error(); } catch(exc)
+      {
+        this.path = roka.core.utils.get_dir( exc.sourceURL );
+      }
+    }
 
     this.widget = widget;
 
@@ -44,4 +52,4 @@
     monitor.offsetHeight>space && ( this.output.content.style.marginTop = "-"+( monitor.offsetHeight-space )+'px' );
   };
 
-})( window.rokaconsole );
+})( rokaconsole );
