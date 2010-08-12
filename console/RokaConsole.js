@@ -58,5 +58,4 @@
     });
   };
 
-})( window.rokaconsole = {} );
-
+})( rokaconsole );

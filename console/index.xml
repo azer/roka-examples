@@ -1,4 +1,7 @@
-<Dependencies>
-  <Module path='RokaConsole.js' />
-  <Widget path='widgets/skeleton/index.xml' />
-</Dependencies>
+<application>
+  <namespace>"rokaconsole":{}</namespace>
+  <dependencies>
+    <module src='RokaConsole.js' />
+    <widget src='widgets/skeleton/index.xml' />
+  </dependencies>
+</application>

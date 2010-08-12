@@ -25,4 +25,4 @@
   // inherit Roke's Widget class
   roka.core.oop.extend( Skeleton, roka.dom.widget.Widget );
   
-})( window.rokaconsole );
+})( rokaconsole );
